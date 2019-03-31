@@ -14,8 +14,10 @@ public class CalculateAngle {
 
 		if (hh == 12)
 			hh = 0;
+		System.out.println("HH");
 		if (mm == 60)
 			mm = 0;
+		System.out.println("MM");
 		double hh_angle = (0.5 * (hh * 6 + mm));
 		double mm_angle = (mm * 6);
 		
