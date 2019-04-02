@@ -18,6 +18,7 @@ public class CountWord {
 				hashMap.put(word, hashMap.get(word) + 1);
 			} else {
 				hashMap.put(word, 1);
+				System.out.println("anuj");
 			}
 		}
 		System.out.println(hashMap);
